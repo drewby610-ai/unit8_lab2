@@ -7,7 +7,7 @@ public class NumberProgram {
 
         System.out.println("Result: " + result);
     }
-
+// Iteration 1: Sum all values in the array
     public static int findResult(int[] values) {
         int sum =0;
         for (int value : values) {
