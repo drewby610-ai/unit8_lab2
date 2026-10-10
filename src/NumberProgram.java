@@ -7,12 +7,12 @@ public class NumberProgram {
 
         System.out.println("Result: " + result);
     }
-// Iteration 1: Sum all values in the array
+// Iteration 2: Find the largest values in the array
     public static int findResult(int[] values) {
-        int sum =0;
+        int largest = Integer.MIN_VALUE;
         for (int value : values) {
-            sum += value;
+            if (value > largest) { largest = value; }
         }
-        return sum;
+        return largest;
     }
 }
