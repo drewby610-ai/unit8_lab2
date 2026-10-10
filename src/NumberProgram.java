@@ -7,7 +7,7 @@ public class NumberProgram {
 
         System.out.println("Result: " + result);
     }
-// Iteration 2: Find the largest values in the array
+// Iteration 3: Return the largest value, or Integer.MIN_VALUE if empty
     public static int findResult(int[] values) {
         int largest = Integer.MIN_VALUE;
         for (int value : values) {
